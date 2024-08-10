@@ -1,0 +1,17 @@
+CSS (Cascading Style Sheets)
+
+-> CSS is designed to separate out the styling of the HTML elements into a separate document.
+-> HTML elements have a style attribute, for example -
+    -> <p style="color:green">Text</p>
+-> It's a lot more efficient to separate out these style property assignments to another CSS file and then link that CSS file to the HTML.
+-> This also allows us to assign styles to multiple HTML elements at once using selectors.
+
+-> We've seen that we can use divs and spans to apply styling to only certain elements, even if they share the same tag.
+-> However, we can use selectors like class and id to have a lot more control and flexibility over this.
+-> We can assign elements a cals attribute with a specific name for CSS purposes.
+-> Classes are typically used within divs to group the styling of everything inside the div container together.
+-> Classes can be repeatedly used across a webpage across elements.
+-> IDs are an attribute also used to connect for styling, but should be completely unique and used for only a single elements on the webpage.
+
+-> We've seen taht using CSS we can specify a border around an HTML element.
+-> This border is actually part of the CSS Box Model which is group of edges surrounding the element.

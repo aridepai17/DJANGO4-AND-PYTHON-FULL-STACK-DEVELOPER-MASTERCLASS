@@ -1,0 +1,56 @@
+h1{
+    color: blue;
+    text-align: center;
+    font-size: 50px;
+}
+
+h2{
+    color: red;
+    background-color: yellow;
+}
+
+p{
+    font-size: 20px;
+}
+
+body{
+    background-color: black;
+    font-family: Tahoma;
+}
+div{
+    background-color: rgb(155, 196, 156);
+    border-color: aquamarine;
+    border-width: 10px;
+}
+
+span{
+    color: green;
+}
+
+.myclass{
+    color: pink;
+    border-color: blue;
+    border-width: 5px;
+}
+
+#one{
+    color: white;
+}
+
+#two{
+    color: black;
+}
+
+#up{
+    text-align: center;
+    border: 10px solid red;
+    margin: 20px 20px 100px 10px;
+}
+
+#down{
+    text-align: center;
+    border: 10px solid blue;
+    padding-top: 20px;
+}
+
+
