@@ -8,7 +8,6 @@ Welcome to the **Django 4 and Python Full Stack Developer Masterclass**! This co
 - [What You'll Learn](#what-youll-learn)
 - [Requirements](#requirements)
 - [Installation](#installation)
-- 
 ## Course Overview
 
 The Django 4 and Python Full Stack Developer Masterclass is an intensive program tailored to equip you with the skills needed to build robust, scalable web applications. Whether you are a beginner or an experienced developer, this course will guide you through the essentials of Django 4, Python, and modern front-end development, preparing you for real-world projects.
