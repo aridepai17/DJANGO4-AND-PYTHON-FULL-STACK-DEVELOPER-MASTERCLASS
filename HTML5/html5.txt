@@ -1,0 +1,50 @@
+HTML5
+
+-> HTML stands for Hyper Text Markup Language.
+-> Markup Language just means it includes metadata for annotating the document (webpage) which is visually distinguishable from how the use sees the document.
+
+
+-> Defining a title in the tab:
+    <title> Title of the tab </title>
+
+->Defining text on the webpage:
+    <body> Text on page </body>
+
+-> Defining a heading:
+    <h1> Heading </h1>
+    <h2> Heading </h2>
+    <h3> Heading </h3>
+    <h4> Heading </h4>
+    <h5> Heading </h5>
+    <h6> Heading </h6>
+
+-> Defining body text:
+    <p> Text </p>
+
+-> Defining a link:
+    <a> Text </a>
+    <a href="URL"> Text </a>
+
+-> A common form factor on a page is a list, HTML has two main types of lists:
+    -> Ordered list
+        -> Set with <ol></ol> tags.
+        -> Is numbered.
+    -> Unordered list
+        -> Set with <ul></ul> tags.
+        -> Is not numbered. Uses bullet points.
+-> List items are denoted the same for either list using <li></li> tags.
+
+-> Divisions in our HTML can be created with <div></div> tags.
+-> These will allow us to separate out our HTML inot different sections, which will become useful late when we want to apply certain styles to certain sections.
+
+-> Spans are similar but they are used toc reate inline containers.
+-> Spans use the <span></span> tags.
+-> While it won't be entirely clear what the effect of these tags are beyong organization, once ew know CSS, we use these tags to apply styles to only certain elements on the webpage.
+
+-> Some HTML tags however need to have an attribute to function.
+-> Examples include:
+    -> The Image Tag:
+        -> <img src = "example.png">
+    -> The Anchor Tag:
+        -> <a href = "example.html"></a>
+-> Image tags allow us to show image files like .jpg or .png and Anchor tags allow us to link to other pages.
