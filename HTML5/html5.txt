@@ -48,3 +48,16 @@ HTML5
     -> The Anchor Tag:
         -> <a href = "example.html"></a>
 -> Image tags allow us to show image files like .jpg or .png and Anchor tags allow us to link to other pages.
+
+-> HTTP stands for HyperText Transfer Protocol and is the protocol used to enable (HTML Transfer) between a client and server.
+-> HTTPS just means that the HTTP is secured through encryption.
+-> Many methods available using HTTP, such as -
+    -> GET
+        -> Requests data from a source.
+    -> POST
+        -> Sends data to a server.
+-> A typical user interacting with a webpage won't be aware of GET and POST but still use them ofthen when filling out a form on a page.
+-> Inside an HTML Form there are input tags and label tags, where the attributes play a large role in determining how they work.
+-> The label tag dictates what the user can actually provide as information.
+
+
