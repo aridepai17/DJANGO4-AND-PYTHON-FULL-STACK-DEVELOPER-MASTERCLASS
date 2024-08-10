@@ -60,4 +60,3 @@ HTML5
 -> Inside an HTML Form there are input tags and label tags, where the attributes play a large role in determining how they work.
 -> The label tag dictates what the user can actually provide as information.
 
-
