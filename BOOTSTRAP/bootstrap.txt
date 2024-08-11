@@ -1,0 +1,21 @@
+BOOTSTRAP 
+
+-> You can think of Bootstrap as a combination of a CSS file already created for you and ready to use arranged HTML components.
+-> It also uses a grid system to easily resize your webpage for mobile, tablet, or desktop screens.
+
+-> Bootstrap uses a Layout convention based on containeers and a grid system.
+-> These allow you to organixe your HTML components based on rows and columns as well as easily auto-resize your web page for smaller or larger screens.
+-> Typically everything goes within a container class (class="container") and from there is further separated out into rows and columns.
+-> Using the grid system you can specifically dictate how to resize for screens or let Bootstrap auto-resize for you.
+
+-> We split the entire screen into 12 available columns.
+    -> 12 basic columns
+    -> 6 x 2 columns
+    -> 4 x 3 columns
+    -> 3 x 4 columns
+    -> 2 x 6 columns
+-> We can use any combination of numbers that will eventually add up to 12 columns.
+-> The grid system call will make use of the class="row"
+-> Inside of a row class, we then have the following format:
+    -> col-ScreenSize-NumberofColumns
+-> So we can define how the columns should be show when the screen gets resized.
