@@ -1,0 +1,16 @@
+STRINGS
+
+-> Strings in Python are used to hold text information and are indicated with the use of single or double quotes.
+-> We can also think of a string as a sequence of characters, this means there is an order to the string.
+
+LISTS
+
+-> Lists are a data structure in Python can hold elements in a sequence defined by brackets where each element is spaced out by a comma:
+   ["item", 0, 10.3, "some", myvar ]
+-> We can use them to organize data in a sequence ordering, meaning we can then grab individual elements from that list.
+
+DICTIONARIES
+
+-> Dictionaries allow us to store data in key-value pairs:
+    -> { "key1" : "value1", "key2" : "value2" }
+-> Notice how keys aren't typically numbers, we use dictionaries when it makes more sense to organize data lookup by a key rather than position.
