@@ -14,3 +14,31 @@ DICTIONARIES
 -> Dictionaries allow us to store data in key-value pairs:
     -> { "key1" : "value1", "key2" : "value2" }
 -> Notice how keys aren't typically numbers, we use dictionaries when it makes more sense to organize data lookup by a key rather than position.
+
+TUPLES
+
+-> Tuples aresimilar to lists except for the fact that they are immutable ( cannot be changed or mutated )
+-> Due to their immutability, they have less methods htan lists, they are used when you don't expect ( or want ) a user to be able to change the sequence of items.
+-> While we don't manually define tuples often, we do see many fucntions return tuples when returning results.
+-> Recall we saw the .items() method for dictionaries, this returned a tuple of key-value pairs. 
+
+BOOLEANS
+
+-> Booleans will be our baseic building block for logic and control flow, allowing us to indicate if something is True or False.
+
+PYTHON CONTROL FLOW 
+
+-> To control this flow of logic we use some keywords:
+    -> if
+    -> elif
+    -> else
+-> Control Flow syntax makes use of colons and indentation ( whitespace ).
+-> This indentation system is crucial to Python and is what sets it apart from other programming languages.
+
+-> if/elif/else syntax:
+    if some_condition:
+        # execute some code
+    elif some_other_condition:
+        # do something different
+    else:
+        # do something else

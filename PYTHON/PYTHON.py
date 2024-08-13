@@ -63,5 +63,46 @@ print(mydict.values())
 print(mydict.items())
 #-------------------------------------------------------------------------
 
+mytuple = (1, 2, 3, 4, 5)
+print(mytuple)
+print(mytuple[1])
+print(mytuple[1:3])
+#-------------------------------------------------------------------------
 
+a = True
+b = False
 
+print(a)
+print(b)
+print(a and b)
+print(a or b)
+print(not a)
+print(not b)
+
+print(1 == 1)
+print(1 != 1)
+print(1 > 1)
+print(1 < 2)
+print(1 >= 1)
+#-------------------------------------------------------------------------
+#Comparison operators
+
+record = "Joseph"
+match = "Joseph"
+
+print(record == match)
+print(record != match)
+print(record > match)
+print(record < match)
+print(record >= match)
+
+#Logical Operators
+
+a = True
+b = False
+
+print(a and b)
+print(a or b)
+print(not a)
+print(not b)
+#-------------------------------------------------------------------------
