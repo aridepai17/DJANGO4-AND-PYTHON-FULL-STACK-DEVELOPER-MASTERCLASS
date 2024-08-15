@@ -39,3 +39,8 @@ PYTHON INHERITANCE
 PYTHON MODULES AND PACKAGES
 
 -> When creating complex code bases, we typically don't use a single .py file, instead we would like to break up functionality across multiple Python files and import our classes or functions as needed.
+
+PYTHON PIP PACKAGES INSTALLATION
+
+-> pip is a simple way to download packages at your command line directly from the PyPi repostory.
+-> A quick google search will usually help you discover a link to the PyPi page for the package, or for the package documentation.
