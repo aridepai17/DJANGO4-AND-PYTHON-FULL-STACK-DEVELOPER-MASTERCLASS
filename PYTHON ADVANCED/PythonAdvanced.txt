@@ -12,3 +12,30 @@ PYTHON ERRORS AND EXCEPTION HANDLING
     -> except: Block of code will execute in case there is an error in try block.
     -> finally: A final block of code ot be executed, regardless of an error.
 
+PYTHON OBJECT ORIENTED PROGRAMMING
+
+-> Object Oriented Programming (OOP) allows programmers to create their won objects that have methods and attributes.
+-> The syntax format is often confusing when first encountered,and its usefulness may not be completely clear at first.
+-> In general, OOP allows us to create code that is repeatable and organized.
+-> For much larger scripts of Python code, functions by themselves aren't enough for organization and repeatablility.
+-> Commonly repeated tasks and objects can be defined with OOP to create code that is more usable.
+-> Syntax 
+
+class NameOfClass():
+    def __init__(self,param1,param2):
+    self.param1 = param1
+    self.param2 = param2
+        
+    def somemethod(self):
+        #perform some action
+        print(self.param)
+
+PYTHON INHERITANCE
+
+-> We would like to create our own derived variations of these classes through the use of inheritance.
+-> Inheritance allows us ot pass in an existing class inot a new class, which means we get to inherit the use of the methods already defined within the parent class ( including the __init__ method )
+-> This saves us a lot of time and is a very common syntax in Django.
+
+PYTHON MODULES AND PACKAGES
+
+-> When creating complex code bases, we typically don't use a single .py file, instead we would like to break up functionality across multiple Python files and import our classes or functions as needed.
