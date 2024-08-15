@@ -1,0 +1,14 @@
+PYTHON ERRORS AND EXCEPTION HANDLING
+
+-> When people are using our website, there may be instances where we don't have complete information ot fulfill their web page request.
+-> We need a way to make sure the site's functions can still operate, even if an error were to occur.
+-> For example, you've have seen webpages that return a 404 page if the page doesn't exist or the user enetered the wrong domain URL extension.
+-> We'll need a way try to execute a block of code, but continue to another block if the code doesn't work!
+-> You've definitely already seen Python issue an Exception Error, where Python tries ot inform you of the specific error taking place, for example an IOError or TypeError.
+-> You can actually write code for specific error situations.
+
+-> We can use three keywords for this:
+    -> try: This is the block of code to be attempted ( may lead to an error )
+    -> except: Block of code will execute in case there is an error in try block.
+    -> finally: A final block of code ot be executed, regardless of an error.
+
