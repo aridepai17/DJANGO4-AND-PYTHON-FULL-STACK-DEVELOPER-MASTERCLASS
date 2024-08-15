@@ -42,3 +42,35 @@ PYTHON CONTROL FLOW
         # do something different
     else:
         # do something else
+
+PYTHON FOR LOOPS
+
+-> The term 'iterable' means you can "iterate" over the object.
+-> For example, you can iterate over every character in a string, iterate over every item in a list, iterate over every key in a dictionary.
+-> Syntax of a for loop:
+    myiterable = [1, 2, 3]
+    for itemname in myiterable:
+        print(itemname)
+
+PYTHON WHILE LOOPS
+
+-> While loops will continue to execute a block of code while some condition remains True.
+-> For example, while my pool is not full, keep filling my pool with water.
+-> Or while my dogs ate still hungry, keep feeding my dogs.
+
+-> Syntax of a while loop:
+    while some_boolean_condition:
+        # do something
+    else:
+        # do something else
+
+PYTHON FUNCTIONS
+
+-> Often you'll have some code you want to be able to use multiple times, but without having to always rewrite that same block of code.
+-> We can use functions to have a repeat use block code to easily execute.
+-> Creating a function requires specific stntax, including the def keyword, correct indentation, and proper structure.
+-> Syntax of a function:
+    def nameoffunction():
+        # do something
+-> Typically we use the return keyword to send back the result of the function, instead of just printing it out.
+-> return allows us to assign the output of the function to a new variable.
