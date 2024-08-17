@@ -20,6 +20,11 @@ FEATURES OF DJANGO
     -> Authentication
     -> Database Interaction
     -> Security
+-> Model-Template-View (MTV) Architecture
+    -> ORM - Object Relational Mapper
+    -> Models 
+    -> URLs and Views
+    -> Templates
 
 -> You may have heard Django has "batteries included" or is "fully loaded".
 -> This just means that is has a lot of built in Python modules that take care of really common web application features.
@@ -41,4 +46,20 @@ WHO USES DJANGO?
 -> Pinterest
 -> Dropbox
 -> EventBrite
+
+DJANGO DRAWBACKS
+
+-> Heavily reliant on the idea of Model.
+-> The model is a Python/Django representation of a table in a database.
+-> This makes it very easy to work with querying data, but does add the requirement of understanding Models and setting them up for views.
+
+DJANGO PROJECTS
+
+-> Django Projects can have separated components called "apps".
+-> Don't get condused by this nomenclature!
+-> Typically a "web app" describes the full website or mobile application on the web.
+-> A "Django app" is a sub-component of a single Django Project ( web application )
+-> Often it becomes much easier to organize your code through the use  of apps.
+-> Each app should cover a different key functionality for your website.
+-> Also keep in mind that if you're beginning as a solo developer with a simple website, it may make more sense to put everything under a single Django app. 
 
