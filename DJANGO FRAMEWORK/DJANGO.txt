@@ -63,3 +63,16 @@ DJANGO PROJECTS
 -> Each app should cover a different key functionality for your website.
 -> Also keep in mind that if you're beginning as a solo developer with a simple website, it may make more sense to put everything under a single Django app. 
 
+
+DJANGO VIEWS AND URLs
+
+-> In Django, Views dictate what information is being shown to the client, and URLs dictate where that information is shown on the website.
+-> These work in concert so you can think of each View/URL pairing as a web page on the website.
+-> Django Viewsa and URLs support a lot of dynamic and logic features to help with this sort of task.
+-> A list of view routes is defined in a list variable called urlpatterns.
+
+-> Connecting a View to a URL with path():
+    -> kwargs
+        -> Allows us to pass in keyword arguments as a dictionary to the view.
+    -> name
+        -> Allows us to name a URL in order to reference it else where in Django.
