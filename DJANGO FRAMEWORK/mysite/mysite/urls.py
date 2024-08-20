@@ -17,6 +17,7 @@ Including another URLconf
 from django.contrib import admin
 from django.http.response import HttpResponse
 from django.urls import path, include 
+from . import views
 
 def homeview(request):
     return HttpResponse("Home Page")
@@ -24,5 +25,5 @@ def homeview(request):
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('myapp/', include('myapp.urls')),
-    path('', homeview)
+    path('', views.homeview)
 ]

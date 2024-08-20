@@ -76,3 +76,19 @@ DJANGO VIEWS AND URLs
         -> Allows us to pass in keyword arguments as a dictionary to the view.
     -> name
         -> Allows us to name a URL in order to reference it else where in Django.
+
+USING RESPONSENOTFOUND AND 404 PAGES
+
+-> Inevitably, there will be a time when a client requests a web page view that does not exist or the client did not provide the correct URL route.
+-> In these cases, we use HttpResponseNotFound to return a 404 error page to the client.
+-> Django also has a default 404 page we can display.
+
+REDIRECT BASICS
+
+-> Sometimes a client user will provide a path that we want to redirect to another webpage on our site.
+-> This can be accomplished in Django through the use of the HttpResponseRedirect() function.
+
+REVERSE URLS AND URL NAMES
+
+-> As our websites get larger and larger and more complex, we'll keep adding more views and more URLs across the project and apps.
+-> This leads to more instances where we'll need to reference existing pages (URLs on across our website)
