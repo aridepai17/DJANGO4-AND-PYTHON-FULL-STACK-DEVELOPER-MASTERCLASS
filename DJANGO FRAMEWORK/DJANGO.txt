@@ -92,3 +92,9 @@ REVERSE URLS AND URL NAMES
 
 -> As our websites get larger and larger and more complex, we'll keep adding more views and more URLs across the project and apps.
 -> This leads to more instances where we'll need to reference existing pages (URLs on across our website)
+
+CONNECTING VIEW TO A TEMPLATE
+
+-> Realistically we don't want to have to manually type out HTML code or HTTP Responses inside our views.py file.
+-> Instead, we would like to separate out all our templates (HTML files) into a separate directory and have views communicate between this directory and render the templates.
+-> Connecting to a template directory requires us to inform the Django project settings where to find these templates.

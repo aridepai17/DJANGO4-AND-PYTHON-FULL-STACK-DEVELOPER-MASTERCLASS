@@ -8,17 +8,5 @@ articles = {
     'politics': 'Politics Page'
 }
 
-def newsview(request, topic):
-    try:
-        result = articles[topic]
-        return HttpResponse(articles[topic])
-    except:
-        raise Http404("Page Not Found")
-
-def numpageview(request, numpage):
-    topicslist = list(articles.keys()) #['sports', 'finance', 'politics']
-    topic = topicslist[numpage]
-    
-    
-    return HttpResponseRedirect(reverse("topicpage", args = [topic]))
-        
+def simpleview(request):
+    return render(request, 'myapp/example.html') #.html
