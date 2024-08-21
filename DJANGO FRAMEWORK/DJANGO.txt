@@ -24,14 +24,14 @@ FEATURES OF DJANGO
     -> ORM - Object Relational Mapper
     -> Models 
     -> URLs and Views
-    -> Templates
+    -> Templates 
 
 -> You may have heard Django has "batteries included" or is "fully loaded".
 -> This just means that is has a lot of built in Python modules that take care of really common web application features.
 
 -> One of the most important aspects of Django is that since it uses Python as its programming language, we get to use all the cool Python libraries available to use easily within Django!
 
-DJANGO CONS
+DJANGO NEGATIVES AND CONS
 
 -> Since it has so many features, there is sometimes a bit of a steep learning curve.
 -> It may include many features you don't intend on using.
