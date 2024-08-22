@@ -28,7 +28,6 @@ print(x.height)
 print(x.weight)
 print(x.id)
 #--------------------------------------------------------------------------
-
 #Methods
 
 class Circle():
@@ -44,9 +43,7 @@ x = Circle(5)
 print(x.area())
 print(x.perimeter())
 #--------------------------------------------------------------------------
-
 #Inheritance
-
 
 class Person():
     def __init__(self, firstname, lastname):
@@ -73,7 +70,6 @@ class Agent(Person):
 x = Person("Advaith", "R Pai")
 x.reveal()
 #--------------------------------------------------------------------------
-
 #Special Methods
 
 mylist = [1,2,3]
