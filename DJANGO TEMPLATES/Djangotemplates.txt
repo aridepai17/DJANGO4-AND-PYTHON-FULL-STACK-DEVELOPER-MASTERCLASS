@@ -1,0 +1,13 @@
+TEMPLATE DIRECTORIES 
+
+-> Usually, however, we would like to know to separate out template folders based on their application rather than have a single template folder for the entire project.
+-> Separating out template directories by app is more ideal because in the future you may want to reuse a Django app in a future project.
+-> Having everything in its own app directory makes this reuse easy.
+-> In order for the Django Project to be aware of the app's template directory existence, we do need to register the custom Django app in the settings.py under the INSTALLED_APPS variable.
+
+-> Often you'll have multiple template files with the same name ( multiple index.html files, one for each app index view page ).
+-> Because of the way Django searches for matching template names, to make sure we get the relevant template for the app, we create the app subdirectory underneath the template folder.
+
+DJANGO FILTERS
+
+-> Filters are built-in modifiers in Django templating that allow you to quickly apply a change to a variable on the template side, rather than in your Python script.
