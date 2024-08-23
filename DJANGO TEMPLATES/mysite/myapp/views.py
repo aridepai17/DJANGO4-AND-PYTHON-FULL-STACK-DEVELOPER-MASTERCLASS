@@ -6,6 +6,4 @@ def exampleview(request):
 
 def variableview(request):
     
-    myvar = {'firstname': 'john', 'lastname': 'skywalker', 'somelist': [1, 2, 3, 4, 5], 'somedict': {'insidekey':'insidevalue'} 
-    }
-    return render(request, 'myapp/variable.html', context=myvar)
+    return render(request, 'myapp/variable.html')

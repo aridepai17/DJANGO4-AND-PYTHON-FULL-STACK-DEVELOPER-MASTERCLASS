@@ -11,3 +11,24 @@ TEMPLATE DIRECTORIES
 DJANGO FILTERS
 
 -> Filters are built-in modifiers in Django templating that allow you to quickly apply a change to a variable on the template side, rather than in your Python script.
+
+DJANGO TAGS
+
+-> Django tags are able to provide further logic at the template in the rendering process.
+-> This includes a lot of functionalities, such as for loops, if-else statements, and linking to URLs.
+-> Django also has if, elif, and else tags.
+-> We can also use boolean and comparison operators along with these tags, for example:
+    -> ==, or, and, not, >=
+-> Similar to the Django Tag for loops, we will need an end Tag for if statements.
+    -> { % if var == True %} 
+    -> { % end %}
+
+URL NAMES IN TEMPLATES
+
+-> The path() function call we could assign names to URLs.
+-> This in turn allows us to use the {% url %} tag to easily create links to other pages based on their URL name in urls.py
+
+TEMPLATE INHERITANCE
+
+-> Typically you don't want to have every single template hold repetitive information, such as the navigation bar at the top of your website.
+-> Instead we can inherit these components through the use of the Django {%block%} tags.
