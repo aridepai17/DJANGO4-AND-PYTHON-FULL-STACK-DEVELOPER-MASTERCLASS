@@ -32,3 +32,14 @@ TEMPLATE INHERITANCE
 
 -> Typically you don't want to have every single template hold repetitive information, such as the navigation bar at the top of your website.
 -> Instead we can inherit these components through the use of the Django {%block%} tags.
+
+CUSTOM ERROR TEMPLATES
+
+-> Many pages, such as admin or 404 pages have built-in templates provided by Django for your convience.
+-> However, we have the ability to overwrite any of these built-in templates.
+
+STATIC FILES
+
+-> Most projects will have static files, such as images, JS, or CSS.
+-> Django can serve these static files through the use of Tags, instead of having to refer to a full file path.
+-> This is similar to the {% url %} tag, but using a {% static %} tag instead.
