@@ -1,0 +1,51 @@
+DJANGO MODELS
+
+-> Models allow us to interact with a database with Python and Django.
+-> This includes the key interactions with a database
+    -> Create
+    -> Read
+    -> Update
+    -> Delete
+
+DJANGO DATABASES
+
+-> Put simply, databases allow us to store information that we can use on out website.
+-> We should briefly cover how SQL based databases work so we can understand the Django Models analogous operations that interact with the database.
+Which is better? NO SQL or SQL?
+    -> One format is not better than another, they are simply diffirent.
+    -> Django Models is designed to work really well with a tabular SQL based format, so that is what we will choose.
+    -> For most applications SQL will be completely fine, and if you are beginning with Django you should try to stick to SQL before making a jump to NOSQL.
+    -> You should also carefully consider if NOSQL actually provides a major advantage to your project.
+    -> Django is pretty agnostic to most major SQL engines with the use of its Django Models system, so switching to another SQL engine is more a matter of updating settings.py rather than rewriting the actual Python Django code.
+    -> Since this is the case, we'll use SQLite as its already included and installed along with Python.
+    -> While typically thought of as a smaller scale SQL engine, for many use cases SQLite performs fine.
+
+
+-> Django Models are defined inside a Django app models.py file
+-> The models class operates on a system which directly converts Python based code into SQL commands.
+-> This makes it much easier to work with the backend database.
+-> Each database table has a name and then columns, where each column will have a specific data type.
+
+DJANGO MODEL KEY CONCEPTS:
+    -> Inherits from models class.
+    -> Uses fields to define both data types and data constraints.
+
+
+MIGRATIONS
+
+-> In general, migrations is the act of connecting changes in your Django project or app to the database.
+-> This includes things like adding new models, within an application, adding a new application, updating models with a new column/attribute, and more.
+
+python manage.py makemigrations app
+    -> This actually creates ( but does not run ) the set of instructions that will apply changes to the database.
+    -> The default applications in Django already have their SQL makemigrations code ready.
+
+python manage.py migrate
+    -> Runs any existing migrations ( typically created through the makemigrations command. )
+    -> This is actually running the files under the migrations directory form the previous command.
+
+python manage.py sqlmigrate app 0001
+    -> If you ran makemigrations, then you've already created a migration.py code file.
+    -> If you wanted to see what the SQL code looked like, you could run the sqlmigrate command to view it.
+    -> Note that typically we won't review the files created under the migrations directory or run sqlmigrate, we'll simply makemigrations and migrate.
+    -> You can think of the very first migrate command we run as executing the default makemigrations that was already created for you upon creating the project.
