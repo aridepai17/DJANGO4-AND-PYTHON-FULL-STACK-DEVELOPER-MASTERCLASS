@@ -49,3 +49,24 @@ python manage.py sqlmigrate app 0001
     -> If you wanted to see what the SQL code looked like, you could run the sqlmigrate command to view it.
     -> Note that typically we won't review the files created under the migrations directory or run sqlmigrate, we'll simply makemigrations and migrate.
     -> You can think of the very first migrate command we run as executing the default makemigrations that was already created for you upon creating the project.
+
+DATA INTERACTION
+
+-> Inserting new data into a SQL table is easy with Django Models.
+-> Since the models are represented by a class, we can easily create a new instance of the class object in Python, and call the .save() method to create an INSERT call to the SQL database.
+-> Alternatively, you can use the built-in .objects,create() method to both create and save the new data entry in a single line.
+-> In instances where you want to create multiple new data entries in bulk, you can use he .objects.bulk_create() method to pass in a list of newly created objects.
+
+-> Each Model you create comes with a Manager that allows you to create a QuerySet which can then be used to retrieve entries from the database.
+-> Keep in mind that the QuerySet is lazily evaluated, meaning that it doesn't hit the database until its explicitly asked to grab the information.
+-> Recall we used something like:
+    MyModel.objects
+    -> This is the Django Model Manager.
+    -> This Manager can then actually read the database through the use of method calls, like .all() and .get() and narrow down results with .filter() and .exclude()
+
+-> The .get() operation allows us to grab a single item from the Model table.
+-> This is typically reserved fro something where you are sure there is only a single unique entry, like the default primary key that is automatically created by Django (pk = N)
+-> Further filtering can be done with the .filter() method to narrow down the results.
+-> The .filter() methods can be chained together.
+-> Django also provides operators for QuerySets, which allows us to directly use logic like AND and OR.
+-> These operators need to be imported from django.db.models from the Q function.
