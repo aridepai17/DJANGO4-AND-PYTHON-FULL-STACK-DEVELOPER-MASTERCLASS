@@ -70,3 +70,19 @@ DATA INTERACTION
 -> The .filter() methods can be chained together.
 -> Django also provides operators for QuerySets, which allows us to directly use logic like AND and OR.
 -> These operators need to be imported from django.db.models from the Q function.
+
+-> For more complex filtering, we use field lookups with a filter() call:
+    -> Model.objects.filter(name__icontains = "name")
+
+UPDATION OF MODELS
+
+-> There may come a time when you need create a new column or attribute for a model.
+-> You can easily update existing models by simpy adding a new model class attribute and then migrating those changes.
+-> You should note that when adding new fields, the existing entries will need to have some default value inserted ( even if it's just null ).
+-> In fact, when we attempt to run migrations without taking care of these issues, Django will specifically request us to make a decision.
+-> It's usually more robust to have the default live in th model, but each case is different.
+
+UPDATING ENTRIES 
+
+-> Django makes it very easy to update existing entries.
+-> You simply grab the existing data entry, update any attributes, then .save() the changes to wrtie the update to the database table.
