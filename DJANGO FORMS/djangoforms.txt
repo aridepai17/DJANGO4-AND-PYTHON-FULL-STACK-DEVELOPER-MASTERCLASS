@@ -1,0 +1,32 @@
+DJANGO FORMS
+
+-> We have been able to use HTML froms to allow client users send information in their browser to the backend of our Django application.
+-> The Django website can then Create/Read/Update/Delete information in the database based on the HTML forms.
+-> User interactions based on HTML forms are extremely common across the internet.
+-> However, HTML forms require a lot of processing to connect with Django, especially when we want to later connect these inputs to Models.
+
+-> Forturnately, Django comes with a built-in Forms class which can be used with Django and Python to create forms adn then send that form to the template through a simple Tag call {{form}}.
+-> This allows us to rapidly develop forms for the client while only needing to work mainly with Django and Python!
+-> This will be a huge productivity improvement and make our overall website code more readable.
+
+GET, POST AND CSRF OVERVIEW
+
+-> HTTP defines a variety of methods for interactions.
+-> The key methods we need to understand are GET and POST methods, which we've already seen used in HTML forms.
+    GET
+        -> Requests data from a specified resource.
+        -> GET request can be bookmarked.
+        -> GET request can be cached.
+        -> GET request can be saved in history.
+        -> GET request has length limits.
+        -> GET request can only request data, not modify or update anything.
+    POST
+        -> Requests to send data to a server to create/update a resource.
+
+CSRF
+
+-> Cross Site Request Forgery
+-> Generate a random cryptographic token with every from during each session.
+-> The server could then confirm if the token matches with the current session.
+-> Since each session has a unique token, only the true original from would be accepted as authentic.
+-> Django creates these CSRF tokens for us automatically with a simple tag call! {% csrf_token %}
