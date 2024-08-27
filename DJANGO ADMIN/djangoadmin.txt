@@ -1,0 +1,4 @@
+DJANGO ADMIN
+
+-> One of the most powerful features of Django is its ability ot automatically create an Admin interface.
+-> This is a feature meant to be used by the website manager, to have a graphical interface for interacting with data and users on the site.
