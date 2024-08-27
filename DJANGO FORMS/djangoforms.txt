@@ -30,3 +30,12 @@ CSRF
 -> The server could then confirm if the token matches with the current session.
 -> Since each session has a unique token, only the true original from would be accepted as authentic.
 -> Django creates these CSRF tokens for us automatically with a simple tag call! {% csrf_token %}
+
+TEMPLATE RENDERING
+
+-> When passing {{form}} to the template, we saw that the HTML tags rendered by the Django Form Widgets are all in the same line and don't look visually appealing.
+
+WIDGETS AND STYLING
+
+-> Recall that a Form Field inside forms.py ends up generating a Django widget which in turn renders the actual HTML form input/label tags.
+-> To have more control over styling and presentation, we can access widget presentation, we can access widget attributes.
