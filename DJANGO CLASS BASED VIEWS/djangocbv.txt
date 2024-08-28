@@ -1,0 +1,10 @@
+DJANGO CLASS BASED VIEWS
+
+-> So far we've only seen functions indie our views.py file, but just like Forms and Models,
+    Django provides an entire View class system that is very powerful for quickly rendering commonly used views.
+-> Django CBV come with many pre-built class views fro common tasks, such as listing all the values for a particular
+    model in database (ListView) or creating a new instance of a model object (CreateView).
+
+-> There are a few operations that are very common with models: Create, Detail, Update, Delete, List.
+-> Django provides CBVs that automatically create the appropriate views, forms, and context objects for predefined template names by simply begin connected to a model.
+-> These classes require just a few attributes and automatically do the work for you!
