@@ -39,3 +39,8 @@ WIDGETS AND STYLING
 
 -> Recall that a Form Field inside forms.py ends up generating a Django widget which in turn renders the actual HTML form input/label tags.
 -> To have more control over styling and presentation, we can access widget presentation, we can access widget attributes.
+
+DJANGO MODEL FORMS
+
+-> Often we use forms to directly interact with a Model, such as creating a new instance of a data point inside a model.
+-> Forturnately, Django provides the ModelForm class which automatically creates a Form with fields connected to each model field.
