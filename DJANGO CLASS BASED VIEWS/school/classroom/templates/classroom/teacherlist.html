@@ -2,5 +2,7 @@
 <ul>
     {% for teacher in teachers %}
         <li><a href = "/classroom/teacherdetail/{{teacher.id}}">{{teacher.firstname}} {{teacher.lastname}}</a></li>
+        <a href = "/classroom/teacherupdate/{{teacher.id}}">Update</a>
+        <a href = "/classroom/teacherdelete/{{teacher.id}}">Delete</a>
     {% endfor %}
 </ul>
