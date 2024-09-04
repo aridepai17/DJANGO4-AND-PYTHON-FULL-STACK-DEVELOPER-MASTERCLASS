@@ -1,0 +1,7 @@
+<h1>Register New User Here</h1>
+
+<form method="POST">
+    {% csrf_token %}
+    {{form.as_p}}
+    <input type="submit" value="SIGN UP">
+</form>
