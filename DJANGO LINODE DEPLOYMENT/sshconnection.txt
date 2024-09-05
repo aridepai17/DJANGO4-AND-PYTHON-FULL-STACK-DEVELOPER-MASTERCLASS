@@ -1,0 +1,7 @@
+SSH CONNECTION
+-> SSH (Secure Shell) allows us to securely ocnnect to the Linode server that is hosting our Djagno project.
+-> We don't want just anybody to be able to visit this computer without permission, so we do it through SSH which requires the password you setup during the Linode Setup process.
+-> SSH can be intimidating for the first time users, but it's actually a simple way of connecting to a computer through the internet securely.
+-> Just point tothe computere (IP Address) and confirm permission through the Password.
+-> Once we connect through SSH, we'll have access to the Debian Linux shell located at our Linode Server.
+-> This means we'll be able to use Linux Commands at the Terminal for installations and setups.

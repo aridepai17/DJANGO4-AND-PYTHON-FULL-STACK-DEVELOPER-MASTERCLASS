@@ -1,0 +1,22 @@
+DJANGO LINODE DEPLOYMENT
+
+-> Lets explore how to deploy our Django application tothe web so anyone can visit our site!
+
+KEY REQUIREMENTS
+
+-> Anyone can visit our website online.
+-> We don't want to concern ourselves about uptime or resiliency.
+-> Need to support Python/Django.
+-> Need to connect to cloud server.
+-> Need to be able to push updates to our code and have version control.
+
+Cloud Service Provider:
+    -> Hosts a computer/server with our Django application.
+    -> Many cloud service providers available.
+    -> Often it is a trade-off between ease of use and price.
+    -> A cloud provider with an nice balance between price and ease of use is Linode.
+    -> We can use Linode to setup an online server that contains our Django Web Application.
+
+Version Control:
+    -> We want a way to edit our websites code and keep track of changes.
+    -> For this we use system called git that keeps track of versions, and we use GitHub to store our code.
